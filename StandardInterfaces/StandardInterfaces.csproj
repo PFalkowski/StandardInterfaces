@@ -5,7 +5,7 @@
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Authors>Piotr Falkowski</Authors>
     <Company></Company>
-    <Description>Your everyday interfaces: IFactory&lt;T&gt;, IValidatable, IValueEquatable&lt;T&gt;. Nothing more, nothing less. .NET Standard, MIT licenced.</Description>
+    <Description>Your everyday interfaces: IFactory&lt;T&gt;, IValidatable, IValueEquatable&lt;T&gt;, IConverter. Nothing more, nothing less. .NET Standard, MIT licenced.</Description>
     <Copyright>Piotr Falkowski © 2018</Copyright>
     <PackageLicenseUrl>https://opensource.org/licenses/MIT</PackageLicenseUrl>
     <PackageProjectUrl>https://github.com/PFalkowski/StandardInterfaces</PackageProjectUrl>
