@@ -12,7 +12,8 @@
     <RepositoryUrl>https://github.com/PFalkowski/StandardInterfaces</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageTags>IFactory, IValueEquatable, IValidatable, Factory</PackageTags>
-    <PackageReleaseNotes>Initial release</PackageReleaseNotes>
+    <PackageReleaseNotes>Add IConverter</PackageReleaseNotes>
+    <Version>1.1.0</Version>
   </PropertyGroup>
 
 </Project>
