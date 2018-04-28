@@ -5,14 +5,14 @@
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Authors>Piotr Falkowski</Authors>
     <Company></Company>
-    <Description>Your everyday interfaces: IFactory&lt;T&gt;, IValidatable, IValueEquatable&lt;T&gt;, IConverter. Nothing more, nothing less. .NET Standard, MIT licenced.</Description>
+    <Description>Your everyday interfaces: IUnitOfWork, IRepository&lt;T&gt;, IFactory&lt;T&gt;, IValidatable, IValueEquatable&lt;T&gt;, IConverter&lt;TIn,TOut&gt;. Nothing more, nothing less. .NET Standard 2.0, MIT</Description>
     <Copyright>Piotr Falkowski © 2018</Copyright>
     <PackageLicenseUrl>https://opensource.org/licenses/MIT</PackageLicenseUrl>
     <PackageProjectUrl>https://github.com/PFalkowski/StandardInterfaces</PackageProjectUrl>
     <RepositoryUrl>https://github.com/PFalkowski/StandardInterfaces</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageTags>IFactory, IValueEquatable, IValidatable, Factory</PackageTags>
-    <PackageReleaseNotes>Add IConverter</PackageReleaseNotes>
+    <PackageReleaseNotes>Add IUnitOfWork, IRepository&lt;T&gt;</PackageReleaseNotes>
     <Version>1.1.0</Version>
   </PropertyGroup>
 

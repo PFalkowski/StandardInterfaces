@@ -2,21 +2,21 @@
 using System.Collections.Generic;
 using System.Linq.Expressions;
 
-namespace Stocks.Data.Infrastructure
+namespace StandardInterfaces
 {
     public interface IRepository<TEntity> : IDisposable where TEntity : class
     {
-        TEntity Get(Expression<Func<TEntity, bool>> predicate);
-        IEnumerable<TEntity> GetAll(Expression<Func<TEntity, bool>> predicate);
-        void RemoveAll(Expression<Func<TEntity, bool>> predicate);
+        int Count();
         int Count(Expression<Func<TEntity, bool>> predicate);
-        List<TEntity> GetAll();
+        TEntity Get(Expression<Func<TEntity, bool>> predicate);
+        IEnumerable<TEntity> GetAll();
+        IEnumerable<TEntity> GetAll(Expression<Func<TEntity, bool>> predicate);
         void Add(TEntity entity);
         void AddOrUpdate(TEntity entity);
         void AddRange(IEnumerable<TEntity> entities);
         void Remove(TEntity entity);
         void RemoveRange(IEnumerable<TEntity> entities);
+        void RemoveAll(Expression<Func<TEntity, bool>> predicate);
         void RemoveAll();
-        int Count();
     }
 }

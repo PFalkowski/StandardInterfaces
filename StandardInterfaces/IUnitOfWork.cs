@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Stocks.Data.Infrastructure
+namespace StandardInterfaces
 {
     public interface IUnitOfWork : IDisposable
     {
