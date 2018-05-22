@@ -12,7 +12,7 @@
     <RepositoryUrl>https://github.com/PFalkowski/StandardInterfaces</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageTags>IFactory, IValueEquatable, IValidatable, Factory</PackageTags>
-    <PackageReleaseNotes>Add IUnitOfWork, IRepository&lt;T&gt;</PackageReleaseNotes>
+    <PackageReleaseNotes>Add IFormatter&lt;T&gt;</PackageReleaseNotes>
     <Version>1.3.0</Version>
   </PropertyGroup>
 
