@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace TextFormatting
+﻿namespace StandardInterfaces
 {
     public interface IFormatter<in T>
     {
