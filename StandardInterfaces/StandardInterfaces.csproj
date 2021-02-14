@@ -7,16 +7,17 @@
     <Company></Company>
     <Description>Your everyday interfaces: IUnitOfWork, IRepository&lt;T&gt;, IFactory&lt;T&gt;, IValidatable, IValueEquatable&lt;T&gt;, IConverter&lt;TIn,TOut&gt;, IFormatter&lt;T&gt;. Nothing more, nothing less. .NET Standard 2.0, MIT</Description>
     <Copyright>Piotr Falkowski © 2018</Copyright>
-    <PackageLicenseUrl>https://opensource.org/licenses/MIT</PackageLicenseUrl>
+    <PackageLicenseUrl></PackageLicenseUrl>
     <PackageProjectUrl>https://github.com/PFalkowski/StandardInterfaces</PackageProjectUrl>
     <RepositoryUrl>https://github.com/PFalkowski/StandardInterfaces</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageTags>IFactory, IValueEquatable, IValidatable, Factory</PackageTags>
-    <PackageReleaseNotes>Add builders interfaces</PackageReleaseNotes>
-    <Version>1.4.0</Version>
+    <PackageReleaseNotes>Adjusted namespaces</PackageReleaseNotes>
+    <Version>2.0.0</Version>
     <PublishRepositoryUrl>true</PublishRepositoryUrl>
     <IncludeSymbols>true</IncludeSymbols>
     <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
   </PropertyGroup>
 
   <ItemGroup>
