@@ -13,5 +13,6 @@ namespace StandardInterfaces
         void RemoveRange(IEnumerable<TEntity> entities);
         void RemoveAll(Expression<Func<TEntity, bool>> predicate);
         void RemoveAll();
+        int SaveChanges();
     }
 }
